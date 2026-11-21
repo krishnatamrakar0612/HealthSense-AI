@@ -1,0 +1,9 @@
+node_modules/
+dist/
+__pycache__/
+venv/
+backend/models/*.pkl
+
+.DS_Store
+Run.txt
+*.pdf
