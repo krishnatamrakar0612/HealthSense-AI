@@ -28,9 +28,8 @@ Backend runs on port 5001, frontend on 5173.
     backend/data/            Training.csv + description and precaution files
     frontend/src/App.jsx     the whole React UI
 
-## Use the real Kaggle dataset
-1. Download "Disease Prediction Using Machine Learning" from Kaggle.
-2. Replace these 3 files inside backend/data/ :
-   Training.csv, symptom_Description.csv, symptom_precaution.csv
-3. Delete backend/models/model.pkl, then run: bash run_backend.sh
-   (it trains again and prints the real accuracy and duplicate count)
+Live demo: https://health-sense-ai-wine.vercel.app/
+
+A web app that predicts a likely disease from selected symptoms and shows
+its description and precautions. For learning only, not medical advice.
+   
